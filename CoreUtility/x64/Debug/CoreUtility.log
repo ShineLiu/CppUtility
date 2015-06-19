@@ -1,0 +1,44 @@
+﻿Build started 2015/3/16 11:27:31.
+     1>Project "D:\Task\WallPaper\src\BingWallPaper2\CoreUtility\CoreUtility.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _DEBUG /D _LIB /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"x64\Debug\CoreUtility.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _DEBUG /D _LIB /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Debug\CoreUtility.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TP /errorReport:prompt DeviceID.cpp FolderBrowser.cpp newsha256.cpp NotifyIconManager.cpp PhysicalDriveInNTUsingSmart.cpp RoamingHelper.cpp SmbiosScanner.cpp SmbiosTable.cpp SystemInfoUUIDHandler.cpp TPMInfo.cpp WMI.cpp
+         WMI.cpp
+         TPMInfo.cpp
+         SystemInfoUUIDHandler.cpp
+         SmbiosTable.cpp
+         SmbiosScanner.cpp
+         RoamingHelper.cpp
+     1>d:\task\wallpaper\src\bingwallpaper2\coreutility\string_utility.h(330): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\task\wallpaper\src\bingwallpaper2\coreutility\string_utility.h(332): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\task\wallpaper\src\bingwallpaper2\coreutility\win32_utility.h(436): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\task\wallpaper\src\bingwallpaper2\coreutility\win32_utility.h(440): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\task\wallpaper\src\bingwallpaper2\coreutility\win32_utility.h(458): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\task\wallpaper\src\bingwallpaper2\coreutility\win32_utility.h(710): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\task\wallpaper\src\bingwallpaper2\coreutility\win32_utility.h(723): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+         PhysicalDriveInNTUsingSmart.cpp
+         NotifyIconManager.cpp
+         newsha256.cpp
+         FolderBrowser.cpp
+         DeviceID.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\Lib.exe /OUT:"D:\Task\WallPaper\src\BingWallPaper2\x64\Debug\CoreUtility.lib" /NOLOGO /MACHINE:X64 x64\Debug\DeviceID.obj
+         x64\Debug\FolderBrowser.obj
+         x64\Debug\newsha256.obj
+         x64\Debug\NotifyIconManager.obj
+         x64\Debug\PhysicalDriveInNTUsingSmart.obj
+         x64\Debug\RoamingHelper.obj
+         x64\Debug\SmbiosScanner.obj
+         x64\Debug\SmbiosTable.obj
+         x64\Debug\stdafx.obj
+         x64\Debug\SystemInfoUUIDHandler.obj
+         x64\Debug\TPMInfo.obj
+         x64\Debug\WMI.obj
+         CoreUtility.vcxproj -> D:\Task\WallPaper\src\BingWallPaper2\x64\Debug\CoreUtility.lib
+     1>Done Building Project "D:\Task\WallPaper\src\BingWallPaper2\CoreUtility\CoreUtility.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:09.45

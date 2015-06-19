@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="HTMLWindow.h" />
+    <ClInclude Include="com_utility.h" />
+    <ClInclude Include="noncopyable.h" />
+    <ClInclude Include="value.h" />
+    <ClInclude Include="scope_guard.h" />
+    <ClInclude Include="string_utility.h" />
+    <ClInclude Include="singleton.h" />
+    <ClInclude Include="lock.h" />
+    <ClInclude Include="win32_utility.h" />
+    <ClInclude Include="JsExtObjBase.h" />
+    <ClInclude Include="Registry.h" />
+    <ClInclude Include="MainSetting.h" />
+    <ClInclude Include="http.h" />
+    <ClInclude Include="RoamingHelper.h" />
+    <ClInclude Include="registry_utility.h" />
+    <ClInclude Include="EventCenter.h" />
+    <ClInclude Include="error_handling_utility.h" />
+    <ClInclude Include="threading.h" />
+    <ClInclude Include="NotifyIconManager.h" />
+    <ClInclude Include="WindowMessage.h" />
+    <ClInclude Include="atomic.h" />
+    <ClInclude Include="version.h" />
+    <ClInclude Include="FolderBrowser.h" />
+    <ClInclude Include="json.h" />
+    <ClInclude Include="GenerateUserID.h" />
+    <ClInclude Include="newsha256.h" />
+    <ClInclude Include="DeviceID.h" />
+    <ClInclude Include="TPMInfo.h" />
+    <ClInclude Include="SmbiosScanner.h" />
+    <ClInclude Include="SystemInfoUUIDHandler.h" />
+    <ClInclude Include="SmbiosTable.h" />
+    <ClInclude Include="WMI.h" />
+    <ClInclude Include="PhysicalDriveInNTUsingSmart.h" />
+    <ClInclude Include="formatstr.h" />
+    <ClInclude Include="smbios.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="RoamingHelper.cpp" />
+    <ClCompile Include="NotifyIconManager.cpp" />
+    <ClCompile Include="FolderBrowser.cpp" />
+    <ClCompile Include="DeviceID.cpp" />
+    <ClCompile Include="newsha256.cpp" />
+    <ClCompile Include="TPMInfo.cpp" />
+    <ClCompile Include="SmbiosScanner.cpp" />
+    <ClCompile Include="SystemInfoUUIDHandler.cpp" />
+    <ClCompile Include="SmbiosTable.cpp" />
+    <ClCompile Include="WMI.cpp" />
+    <ClCompile Include="PhysicalDriveInNTUsingSmart.cpp" />
+  </ItemGroup>
+</Project>
